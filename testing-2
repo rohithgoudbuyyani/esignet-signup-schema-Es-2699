@@ -28,21 +28,18 @@
                 "type": "simpleType",
                 "labelName": {
                     "eng": "Full Name in Khmer",
-                    "khm": "គោត្តនាម-នាម",
-                    "hin": "यह फ़ील्ड आवश्यक है"
+                    "khm": "គោត្តនាម-នាម"
                 },
                 "placeholder": {
                     "en": "Enter Full Name in Khmer",
-                    "km": "បញ្ចូលគោត្តនាម-នាមជាភាសាខ្មែរ",
-                    "hin": "यह फ़ील्ड आवश्यक है"
+                    "km": "បញ្ចូលគោត្តនាម-នាមជាភាសាខ្មែរ"
                 },
                 "validators": [
                     {
                         "regex": "^[\\u1780-\\u17FF\\u19E0-\\u19FF\\u1A00-\\u1A9F\\u0020]{1,30}$",
                         "error": {
                             "eng": "Full Name has to be in Khmer only",
-                            "khm": "គោត្តនាម-នាមត្រូវតែមានតែអក្សរខ្មែរ",
-                            "hin": "यह फ़ील्ड आवश्यक है"
+                            "khm": "គោត្តនាម-នាមត្រូវតែមានតែអក្សរខ្មែរ"
                         },
                         "langCode": "km"
                     },
@@ -50,16 +47,14 @@
                         "regex": "^[a-zA-Z][a-zA-Z ]{1,30}$",
                         "error": {
                             "eng": "Full Name has to be in English only",
-                            "khm": "ឈ្មោះ​ពេញ​ត្រូវតែសរសេរជាភាសាអង់គ្លេសតែប៉ុណ្ណោះ",
-                            "hin": "यह फ़ील्ड आवश्यक है"
+                            "khm": "ឈ្មោះ​ពេញ​ត្រូវតែសរសេរជាភាសាអង់គ្លេសតែប៉ុណ្ណោះ"
                         },
                         "langCode": "en"
                     }
                 ],
                 "info": {
                     "en": "Maximum 30 characters allowed with no alphabets or special characters, except space.",
-                    "km": "ជាអតិបរមា 30 តួអក្សរត្រូវបានអនុញ្ញាត និងមិនគួរមានលេខ ឬតួអក្សរពិសេសណាមួយឡើយ លើកលែងតែដកឃ្លា។",
-                    "hin": "यह फ़ील्ड आवश्यक है"
+                    "km": "ជាអតិបរមា 30 តួអក្សរត្រូវបានអនុញ្ញាត និងមិនគួរមានលេខ ឬតួអក្សរពិសេសណាមួយឡើយ លើកលែងតែដកឃ្លា។"
                 },
                 "alignmentGroup": "groupB",
                 "required": true
