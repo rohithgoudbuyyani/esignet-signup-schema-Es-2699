@@ -116,8 +116,8 @@
                     "eng": "Date of Birth",
                     "khm": "ថ្ងៃខែឆ្នាំកំណើត"
                 },
-                "minAge": -1,
-                "maxAge": -5,
+                "minAge": "abc",
+                "maxAge": "xyz",
                 "alignmentGroup": "groupE",
                 "required": true
             },
