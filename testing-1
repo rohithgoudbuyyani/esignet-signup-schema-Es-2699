@@ -198,7 +198,7 @@
                     "image/jpg",
                     "image/png"
                 ],
-                "maxFileSizeMB": 5,
+                "maxFileSizeMB": 8,
                 "alignmentGroup": "groupI"
             },
             {
