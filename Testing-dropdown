@@ -1,24 +1,32 @@
 {
         "schema": [
             {
-                "id": "phone",
-                "controlType": "phone",
-                "labelName": {
-                    "en": "Username",
-                    "km": "ឈ្មោះ​អ្នកប្រើប្រាស់"
-                },
-                "placeholder": {
-                    "eng": "Enter your username",
-                    "khm": "សូមបញ្ចូលឈ្មោះអ្នកប្រើប្រាស់"
-                },
-                "validators": [],
-                "required": false,
-                "disabled": true,
-                "prefix": [
-                    "+91"
-                ],
-                "alignmentGroup": "groupA"
-            },
+  "id": "phone",
+  "controlType": "phone",
+  "labelName": {
+    "eng": "Username",
+    "khm": "ឈ្មោះ​អ្នកប្រើប្រាស់"
+  },
+  "placeholder": {
+    "eng": "Enter your username",
+    "khm": "សូមបញ្ចូលឈ្មោះអ្នកប្រើប្រាស់"
+  },
+  "validators": [
+    {
+      "regex": "^\\d{10}$",
+      "error": {
+        "eng": "Please enter valid 10 digit mobile number",
+        "khm": "សូមបញ្ចូលលេខទូរស័ព្ទ ១០ ខ្ទង់ត្រឹមត្រូវ"
+      }
+    }
+  ],
+  "required": true,
+  "disabled": false,
+  "prefix": [
+    "+91"
+  ],
+  "alignmentGroup": "groupA"
+},
             {
                 "id": "fullName",
                 "capsLockCheck": true,
