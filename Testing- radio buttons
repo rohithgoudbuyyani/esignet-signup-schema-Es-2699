@@ -13,7 +13,7 @@
                 },
                 "validators": [],
                 "required": false,
-                "disabled": true,
+                "disabled": false,
                 "prefix": [
                     "+91"
                 ],
