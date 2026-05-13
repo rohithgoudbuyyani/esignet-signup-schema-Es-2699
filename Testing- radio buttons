@@ -12,7 +12,7 @@
                     "khm": "សូមបញ្ចូលឈ្មោះអ្នកប្រើប្រាស់"
                 },
                 "validators": [],
-                "required": false,
+                "required": true,
                 "disabled": false,
                 "prefix": [
                     "+91"
