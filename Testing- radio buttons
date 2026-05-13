@@ -261,6 +261,31 @@
                     "km": "ជួល"
                 }
             },
+            "employmentStatusVal": {
+  "employed": {
+    "eng": "Employed",
+    "khm": "មានការងារ"
+  },
+  "unemployed": {
+    "eng": "Unemployed",
+    "khm": "គ្មានការងារ"
+  },
+  "student": {
+    "eng": "Student",
+    "khm": "សិស្ស"
+  }
+},
+
+"citizenshipVal": {
+  "indian": {
+    "eng": "Indian",
+    "khm": "ឥណ្ឌា"
+  },
+  "foreigner": {
+    "eng": "Foreigner",
+    "khm": "ជនបរទេស"
+  }
+},
             "photoVal": {
                 "selfie": {
                     "en": "Selfie",
